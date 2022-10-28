@@ -1,0 +1,260 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* height: 400px; */
+    width: 400px;
+    color: green;
+    background-color: greenyellow;
+    border: 1px solid yellowgreen;
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    border-radius: 1em;
+    margin-left: 300px;
+    background: linear-gradient(50deg, #2a5a3b, #1e4886);
+    overflow: hidden;
+    column-gap: 40px;
+    margin-top: 20px;
+}
+
+.main-container::before {
+    content: "";
+    position: absolute;
+    width: 450px;
+    height: 35px;
+    top: 0;
+    right: 35px;
+    transition: 1.9s;
+    column-gap: 40px;
+    /* background: linear-gradient(50deg, #00ff59, #02b3ff); */
+}
+
+
+.main-box {
+    min-height: 400px;
+    width: 290px;
+    font-weight: 400;
+    font-family: monospace;
+    box-shadow: 200px;
+    padding: 30px;
+
+    /* background: linear-gradient(50deg, #00ff59, #02b3ff); */
+
+}
+
+.para {
+    text-align: center;
+    font-weight: 500;
+    font-family: monospace;
+    font-size: 20px;
+    color: white;
+    padding-left: 20px;
+}
+
+body {
+
+    background-color: #4f6d7a;
+    height: 200vh;
+
+}
+
+.bnt {
+    color: black;
+    background-color: rgb(172, 108, 108);
+}
+
+button:hover {
+    color: cadetblue;
+    background-color: black;
+    margin-bottom: 6px;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 50px;
+    color: rgb(186, 91, 91);
+}
+
+.ta {
+    margin-right: 600px;
+    color: white;
+}
+
+.bnt1 {
+    margin-left: 500px;
+    /* border-radius: 1em; */
+    color: rgb(36, 23, 23);
+    background-color: aliceblue;
+}
+
+.bnt5 {
+    background-color: black;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    border-radius: 1em;
+
+}
+
+.bnt6 {
+    background-color: black;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    border-radius: 1em;
+
+
+}
+
+.bnt7:hover {
+    background-color: black;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    border-radius: 1em;
+}
+
+.bnt8 {
+    background-color: black;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+
+}
+
+.bnt1 {
+    margin-left: 450px;
+}
+
+.pa2 {
+    margin-left: 395px;
+    color: white;
+
+}
+
+.bnt5 {
+    padding: 15px;
+    border-radius: 1em;
+}
+
+.bnt6 {
+    padding: 15px;
+    border-radius: 1em;
+}
+
+.bnt7 {
+    padding: 15px;
+    border-radius: 1em;
+}
+
+.bnt8 {
+    padding: 15px;
+    border-radius: 1em;
+}
+
+.para {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.ta {
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.pa2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 550px;
+    font-size: 40px;
+}
+
+.bnt1 {
+    color: black;
+    margin-left: 450px;
+}
+
+
+
+.main-container {
+    margin-left: 450px;
+}
+
+.bnt11 {
+    margin-left: 600px;
+    border-radius: 1em;
+}
+
+.bnt {
+    font-size: 20px;
+}
+
+.date {
+    font-size: 20px;
+    color: black;
+}
+
+/* button {
+    font-size: 20px;
+} */
+.bnt:hover {
+    padding: 10px 10px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px #999;
+    background-color: #04aa6d;
+}
+
+.deletebtn {
+    padding: 10px 10px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px #999;
+    background-color: #04aa6d;
+}
+
+.bnt {
+    padding: 10px 10px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px #999;
+    background-color: #04aa6d;
+}
+
+p {
+    font-size: 20px;
+    color: #fff;
+}
+
+.fa-regular,
+.fa-light {
+    font-size: 30px;
+    color: white;
+}
+
+/* .pa2 {
+    padding: 10px 10px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px #999;
+    background-color: #04aa6d;
+} */
